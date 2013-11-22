@@ -16,7 +16,7 @@ class NewVisitorTest(unittest.TestCase):
         # in kilometers per hour and wants to convert. Sorcha
         # had told her about an app she was writing that did just that
         # so she opened the app in a browser
-        self.browser.get('http://localhost:8000')
+        self.browser.get('http://localhost:8000/runConverterApp')
 
         # she notices that the title of the webpage talks about running
         # and converting

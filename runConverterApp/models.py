@@ -76,46 +76,46 @@ class runConverter (models.Model):
 class tester ():
     r = runConverter()
     r.gotMinMiles(10)
-    print "if min miles is 10"
-    print "min miles is"
-    print r.getMinMiles()
-    print "min km is"
-    print r.getMinKm()
-    print "mph is"
-    print r.getMph()
-    print "kph is"
-    print r.getKph()
+    print ("if min miles is 10")
+    print ("min miles is")
+    print (r.getMinMiles())
+    print ("min km is")
+    print (r.getMinKm())
+    print ("mph is")
+    print (r.getMph())
+    print ("kph is")
+    print (r.getKph())
  
     r.gotMinKm(6)
-    print "\n\nif min km is 6"
-    print "min miles is"
-    print r.getMinMiles()
-    print "min km is"
-    print r.getMinKm()
-    print "mph is"
-    print r.getMph()
-    print "kph is"
-    print r.getKph()
+    print ("\n\nif min km is 6")
+    print ("min miles is")
+    print (r.getMinMiles())
+    print ("min km is")
+    print (r.getMinKm())
+    print ("mph is")
+    print (r.getMph())
+    print ("kph is")
+    print (r.getKph())
     
     r.gotMph(6)
-    print "\n\nif mph is 6"
-    print "min miles is"
-    print r.getMinMiles()
-    print "min km is"
-    print r.getMinKm()
-    print "mph is"
-    print r.getMph()
-    print "kph is"
-    print r.getKph()
+    print ("\n\nif mph is 6")
+    print ("min miles is")
+    print (r.getMinMiles())
+    print ("min km is")
+    print (r.getMinKm())
+    print ("mph is")
+    print (r.getMph())
+    print ("kph is")
+    print (r.getKph())
     
         
     r.gotKph(9)
-    print "\n\nif kph is 9"
-    print "min miles is"
-    print r.getMinMiles()
-    print "min km is"
-    print r.getMinKm()
-    print "mph is"
-    print r.getMph()
-    print "kph is"
-    print r.getKph()
+    print ("\n\nif kph is 9")
+    print ("min miles is")
+    print (r.getMinMiles())
+    print ("min km is")
+    print (r.getMinKm())
+    print ("mph is")
+    print (r.getMph())
+    print ("kph is")
+    print (r.getKph())

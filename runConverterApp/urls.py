@@ -1,6 +1,6 @@
-from django.config.urls import patterns, url
+from django.conf.urls import patterns, url
 
-from runConverter import views
+from runConverterApp import views
 
 urlpatterns = patterns('',
     url(r'^$', views.index, name='index')
